@@ -27,7 +27,7 @@ class LoginTab extends Component {
 				iconStyle={{ color: tintColor }}
 			/>
 		)
-	};
+	}
 
 	handleLogin() {
 		console.log(JSON.stringify(this.state));
